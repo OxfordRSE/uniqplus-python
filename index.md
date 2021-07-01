@@ -170,8 +170,7 @@ Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact:</strong>
-  Join us on Slack at
-  <a href='uniqstudentsa-f8y1776.slack.com'>uniqstudentsa-f8y1776.slack.com</a>.
+  <a href='https://join.slack.com/t/uniqstudentsa-f8y1776/shared_invite/zt-rh5bqb0n-uaXYZfwBZnOvSukZwRQg4A'>Join fellow students and instructors on Slack</a>.
 </p>
 
 {% comment %}
