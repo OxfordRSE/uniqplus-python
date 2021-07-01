@@ -276,3 +276,4 @@ to include the relevant installation instrucctions.
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
 {% endif %}
+{% include install_instructions/install_python.html %}
