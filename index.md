@@ -10,11 +10,11 @@ language: "eng"     # lowercase two-letter ISO language code such as "fr" (see h
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Jul 05-09, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 4:30pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: ""    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-07-05      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-07-09        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Ben Lambert", "Thibault Lestang"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-email: ["ben.lambert@cs.ox.ac.uk","thibault.lestang@cs.ox.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+instructor: ["Ben Lambert", "Thibault Lestang", "Martin Robinson"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+email: ["ben.lambert@cs.ox.ac.uk","thibault.lestang@cs.ox.ac.uk", "martin.robinson@cs.ox.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -164,65 +164,14 @@ Modify the block below if there are any special requirements.
 </p>
 
 {% comment %}
-ACCESSIBILITY
-
-Modify the block below if there are any barriers to accessibility or
-special instructions.
-{% endcomment %}
-<p id="accessibility">
-  <strong>Accessibility:</strong>
-{% if online == "false" %}
-  We are committed to making this workshop
-  accessible to everybody. The workshop organizers have checked that:
-</p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-<p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
-</p>
-{% else %}
-  We are dedicated to providing a positive and accessible learning environment for all. Please
-  notify the instructors in advance of the workshop if you require any accommodations or if there is
-  anything we can do to make this workshop more accessible to you.
-</p>
-{% endif %}
-
-{% comment %}
 CONTACT EMAIL ADDRESS
 
 Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact:</strong>
-  Please email
-  {% if page.email %}
-  {% for email in page.email %}
-  {% if forloop.last and page.email.size > 1 %}
-  or
-  {% else %}
-  {% unless forloop.first %}
-  ,
-  {% endunless %}
-  {% endif %}
-  <a href='mailto:{{email}}'>{{email}}</a>
-  {% endfor %}
-  {% else %}
-  to-be-announced
-  {% endif %}
-  for more information.
-</p>
-
-<p id="roles">
-  <strong>Roles:</strong>
-  To learn more about the roles at the workshop (who will be doing what),
-  refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
+  Join us on Slack at
+  <a href='uniqstudentsa-f8y1776.slack.com'>uniqstudentsa-f8y1776.slack.com</a>.
 </p>
 
 {% comment %}
