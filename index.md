@@ -237,6 +237,19 @@ how one of these schedule tables is constructed.
 
 <hr/>
 
+<h2 id="general">Already familiar with the material above?</h2> 
+
+<p>
+The present
+course is targeted at beginners in programming in Python and data
+science.  If you feel like you would not learn a great deal from the
+material, you can follow <a href="https://sabs-r3.github.io/scientific-computing/unit_0_introduction/01_course_overview">the intermediate course</a> instead. 
+</p>
+<p>
+If you're
+unsure about which course to follow, feel free to get in touch with
+the instructors at the beginning of the course (Monday afternoon).
+</p>
 
 {% comment %}
 SETUP
