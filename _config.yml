@@ -104,6 +104,7 @@ oop_lesson_site: "https://sabs-r3.github.io/2020-software-engineering-day1/14-ob
 snake_repo_site: "https://github.com/OxfordRSE/uniqplus_snake_project"
 code_quality_repo_site: "https://github.com/OxfordRSE/NTDMC_tech_meeting_2021"
 python_packaging_site: "https://oxfordrse.github.io/python-packaging-course"
+python_packaging_archive: "https://oxfordrse.github.io/uniqplus-python/data/uniqplus_python_packaging.zip"
 grammar_of_graphics_course: "https://github.com/ben18785/introduction_to_grammar_of_graphics"
 intro_to_statistical_inference_course: "https://github.com/ben18785/introduction_to_statistical_inference"
 # Surveys.
