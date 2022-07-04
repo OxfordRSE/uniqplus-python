@@ -9,12 +9,12 @@ country: "GB"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "eng"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Jul 05-09, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: ""    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humandate: "Jul 05-08, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "09:00-17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-07-05      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2020-07-09        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Ben Lambert", "Thibault Lestang", "Martin Robinson"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-email: ["ben.lambert@cs.ox.ac.uk","thibault.lestang@cs.ox.ac.uk", "martin.robinson@cs.ox.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+enddate: 2020-07-08        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Fergus Cooper", "Graham Lee"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+email: ["fergus.cooper@dtc.ox.ac.uk","graham.lee@cs.ox.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
