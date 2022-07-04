@@ -248,7 +248,7 @@ material, you can follow <a href="https://sabs-r3.github.io/scientific-computing
 <p>
 If you're
 unsure about which course to follow, feel free to get in touch with
-the instructors at the beginning of the course (Monday afternoon).
+the instructors at the beginning of the course (Tuesday afternoon).
 </p>
 
 {% comment %}
