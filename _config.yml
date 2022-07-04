@@ -99,7 +99,7 @@ workshop_repo: "https://github.com/carpentries/workshop-template"
 workshop_site: "https://carpentries.github.io/workshop-template"
 cc_by_human: "https://creativecommons.org/licenses/by/4.0/"
 # Lessons
-intro_python_site: "https://tlestang.github.io/uniqplus_python_course"
+intro_python_site: "https://oxfordrse.github.io/uniqplus_python_course"
 oop_lesson_site: "https://sabs-r3.github.io/2020-software-engineering-day1/14-object-oriented"
 snake_repo_site: "https://github.com/OxfordRSE/uniqplus_snake_project"
 code_quality_repo_site: "https://github.com/OxfordRSE/NTDMC_tech_meeting_2021"
