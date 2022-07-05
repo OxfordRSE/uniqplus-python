@@ -11,8 +11,8 @@ latitude: "51.759568"        # decimal latitude of workshop venue (use https://w
 longitude: "-1.259060"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Jul 05-08, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "09:00-17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2020-07-05      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2020-07-08        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2022-07-05      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2022-07-08        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Fergus Cooper", "Graham Lee"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 email: ["fergus.cooper@dtc.ox.ac.uk","graham.lee@cs.ox.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 ---
@@ -170,7 +170,7 @@ Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact:</strong>
-  <a href='https://join.slack.com/t/uniqstudentsa-f8y1776/shared_invite/zt-rh5bqb0n-uaXYZfwBZnOvSukZwRQg4A'>Join fellow students and instructors on Slack</a>.
+  <a href="mailto:fergus.cooper@dtc.ox.ac.uk">fergus.cooper@dtc.ox.ac.uk</a>, <a href="mailto:graham.lee@cs.ox.ac.uk">graham.lee@cs.ox.ac.uk</a>
 </p>
 
 {% comment %}
